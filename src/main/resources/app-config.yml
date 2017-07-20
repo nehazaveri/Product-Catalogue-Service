@@ -1,0 +1,18 @@
+appName:  Product API
+dbConnectionUri: mongodb://localhost:27017
+dbName: productDB
+
+server:
+  rootPath: /*
+  applicationConnectors:
+    - type: http
+      port: 8080
+  adminConnectors:
+    - type: http
+      port: 8001
+logging:
+  level:  WARN
+  loggers:
+    resources:  DEBUG
+swagger:
+  resourcePackage: resources

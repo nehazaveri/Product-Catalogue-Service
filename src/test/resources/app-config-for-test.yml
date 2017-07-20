@@ -1,0 +1,5 @@
+dbConnectionUri: mongodb://localhost:27017
+dbName: productDB
+
+swagger:
+  resourcePackage: resources
