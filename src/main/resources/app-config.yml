@@ -3,7 +3,7 @@ dbConnectionUri: mongodb://localhost:27017
 dbName: productDB
 
 server:
-  rootPath: /*
+  rootPath: /product-service/*
   applicationConnectors:
     - type: http
       port: 8080

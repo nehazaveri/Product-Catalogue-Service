@@ -20,4 +20,4 @@ To Start DataBase
 To Run This Service execute following command
 1. ./gradlew clean test build (from the root directory of the service)
 2. ./gradlew run (This will start the application on port 8080)
-3. Open the browser and enter http://localhost:8080/swagger , it will display list of all the endpoints exposed in the service
+3. Open the browser and enter http://localhost:8080/product-service/swagger , it will display list of all the endpoints exposed in the service
