@@ -1,4 +1,4 @@
-appName:  Product API
+appName:  Product Catalogue Service
 dbConnectionUri: mongodb://localhost:27017
 dbName: productDB
 

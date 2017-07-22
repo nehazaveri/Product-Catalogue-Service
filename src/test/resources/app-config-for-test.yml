@@ -1,5 +1,10 @@
 dbConnectionUri: mongodb://localhost:27017
 dbName: productDB
 
+logging:
+  level:  WARN
+  loggers:
+    resources:  DEBUG
+
 swagger:
   resourcePackage: resources
